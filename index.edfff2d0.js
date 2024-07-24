@@ -1,0 +1,2 @@
+var e=document.querySelector("table"),t=e.querySelector("thead tr"),n=document.createElement("th");n.textContent=t.cells[1].textContent,t.insertBefore(n,t.cells[4]),e.querySelectorAll("tbody tr").forEach(function(e){var t=document.createElement("td");t.textContent=e.cells[1].textContent,e.insertBefore(t,e.cells[4])});var r=document.querySelector("tfoot tr"),o=document.createElement("th");o.textContent=n.textContent,r.insertBefore(o,r.cells[4]);
+//# sourceMappingURL=index.edfff2d0.js.map
